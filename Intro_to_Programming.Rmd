@@ -1,7 +1,5 @@
 ---
 title: "Introduction to Programming"
-author: "Atharva Wadodkar"
-date: "2026-07-16"
 output: html_document
 ---
 
@@ -9,33 +7,33 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# This section introduces us to R by using it as a simple calculator
+This section introduces us to R by using it as a simple calculator
 
-# Assigning Variables 
+Assigning Variables 
 ```{r}
 Result <- 15 + 25.1 + 20.25
 
 Second_Result <- 12 + 22.6 + 68
 ```
 
-# New Functions 
+New Functions 
 ```{r}
 years_old <- 25.7
 ```
 
-# Rounds up
+Rounds up
 ```{r}
 round(years_old)
 ```
 
-# Rounds down
+Rounds down
 ```{r}
 floor(years_old) 
 
 years_old <- 25.765
 ```
 
-# Comma after the object to specify argument
+Comma after the object to specify argument
 ```{r}
 round (years_old, 2)
 
@@ -45,7 +43,8 @@ Bill_age <- paste('Bill is', years_old)
 ```
 
 # Misconceptions
-# Variables in programs do not work the same way as they do in spreadsheets
+
+Variables in programs do not work the same way as they do in spreadsheets
 ```{r}
 grade <- 55
 total <- grade + 10
@@ -56,7 +55,7 @@ total <- grade + 10
 print (total) # executed in the way it was defined
 ```
 
-# What will this code do?
+What will this code do?
 ```{r}
 p <- 2
 z <- 5
